@@ -356,7 +356,25 @@ footer {
   padding-top: 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.video-description {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.video-description:hover {
+  transform: translateY(-5px);
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .navbar {

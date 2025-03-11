@@ -162,46 +162,61 @@
           <!-- Individual Facebook Posts -->
           <div class="news-item">
             <h3>💐 𝑴𝒐́𝒏 𝒒𝒖𝒂̀ 𝒕𝒂̣̆𝒏𝒈 𝑴𝒆̣ 8/3 ❤️</h3>
-            <div class="fb-post-container">
-              <div
-                class="fb-post"
-                data-href="https://fb.watch/yeNPnGP_Ej/"
-                data-width="500"
-                data-show-text="true"
-                data-adapt-container-width="true"
-              ></div>
+            <div class="video-container">
+              <video controls width="100%">
+                <source src="assest/videos/8-3.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <p class="video-description">
+                Ngày 8/3 năm nay, các bé yêu tại trung tâm Everest đã có một
+                buổi trải nghiệm đầy màu sắc và ý nghĩa khi tự tay làm những
+                chiếc thiệp xinh cùng những bông hoa rực rỡ dành tặng mẹ. Dưới
+                bàn tay bé nhỏ nhưng khéo léo, những bông hoa xinh xắn cùng
+                những lời chúc yêu thương đã được gửi gắm trọn vẹn. <br> 🌸🎁 Không
+                chỉ là hoạt động thủ công, đây còn là cơ hội để các con học cách
+                bày tỏ tình cảm, biết ơn và trân trọng gia đình của mình. Nhìn
+                những nụ cười rạng rỡ, ánh mắt háo hức của các bé khi hoàn thành
+                món quà, chúng ta càng cảm nhận rõ hơn tình yêu thương trong
+                từng hành động nhỏ. 💕
+              </p>
             </div>
           </div>
 
           <div class="news-item">
             <h3>📚 HÔM NAY BÉ HỌC GÌ Ở EVEREST?📙</h3>
-            <div class="fb-post-container">
-              <div
-                class="fb-post"
-                data-href="https://fb.watch/yeO2U6Eg4V/"
-                data-width="500"
-                data-show-text="true"
-                data-adapt-container-width="true"
-              ></div>
+            <div class="video-container">
+              <video controls width="100%">
+                <source src="assest/videos/hoc-gi.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <p class="video-description">
+                Mỗi buổi học tại Trung tâm ngoại ngữ Everest đều là một hành trình khám phá đầy thú vị! <br>
+                💡 Hôm nay, các bé được: <br>
+                ✅ Học từ vựng qua trò chơi <br>
+                🎲 vừa học vừa vui <br>
+                ✅ Luyện phát âm chuẩn cùng gvnn 🎤 <br>
+                ✅ Thực hành ghép câu để nhớ bài lâu hơn  <br>
+                ✍️Mỗi ngày trôi qua, các con lại thêm tự tin, tiến bộ và yêu thích tiếng Anh hơn! <br>
+                ❤️ Ba mẹ hãy theo dõi hành trình của bé cùng Everest nhé!
+              </p>
             </div>
           </div>
-
 
           <div class="news-item">
-            <h3>📣📣 KHỞI ĐỘNG TIẾT HỌC ĐẦU TIÊN
-              CỦA TUẦN MỚI 📣📣</h3>
-            <div class="fb-post-container">
-              <div
-                class="fb-post"
-                data-href="https://fb.watch/yeO5kUKKwM/"
-                data-width="500"
-                data-show-text="true"
-                data-adapt-container-width="true"
-              ></div>
+            <h3>📣📣 KHỞI ĐỘNG TIẾT HỌC ĐẦU TIÊN CỦA TUẦN MỚI 📣📣</h3>
+          <div class="video-container">
+            <div class="video-container-video">
+              <video controls width="100%">
+                <source src="assest/videos/khoi-dong.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
+            <p class="video-description">
+              🌺🌺 Những trò chơi vui nhộn lồng ghép với bài học không thể thiếu trong mỗi tiết học tại Everest!<br>
+              🌺🌺 Cùng tham gia lớp học VUI NHỘN và BỔ ÍCH vs chúng tớ nào!
+            </p>
           </div>
-
-
+        </div>
 
         <div class="news-button">
           <a
@@ -344,5 +359,20 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script>
+      // Wait for DOM to be ready
+      document.addEventListener('DOMContentLoaded', () => {
+        try {
+          const element = document.querySelector('[data-testid="my-element"]');
+          if (!element) {
+            console.warn('Element not found');
+            return;
+          }
+          // proceed with element
+        } catch (error) {
+          console.error('Error accessing element:', error);
+        }
+      });
+    </script>
   </body>
 </html>
